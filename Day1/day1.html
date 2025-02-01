@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Day1</title>
 </head>
 <body>
-    
+    <h1>First Day on JavaScript</h1>
+    <button type="button" onclick="displayDate()">Click Here! It Will display date and Time</button>
+    <div id="display-date"></div>
+    <script>
+        function displayDate(){
+            document.getElementById('display-date').innerHTML= new Date();
+        }
+    </script>
 </body>
 </html>
