@@ -6,13 +6,12 @@
     <title>Day1</title>
 </head>
 <body>
-    <h1>First Day on JavaScript</h1>
+    <h1 id="change-text">First Day on JavaScript</h1>
     <button type="button" onclick="displayDate()">Click Here! It Will display date and Time</button>
     <div id="display-date"></div>
-    <script>
-        function displayDate(){
-            document.getElementById('display-date').innerHTML= new Date();
-        }
-    </script>
+    <div>
+        <button type="button" onclick="changeText()">Update Text</button>
+    </div>
+    <script src="day1.js"> </script>
 </body>
 </html>
